@@ -101,7 +101,7 @@ const verbs = [
     { base: "spoil", pastSimple: "spoilt", pastParticiple: "spoilt", translation: "портить" },
     { base: "steal", pastSimple: "stole", pastParticiple: "stolen", translation: "красть" },
     { base: "stick", pastSimple: "stuck", pastParticiple: "stuck", translation: "приклеивать" },
-    { base: "swear", pastSimple: "swore", pastParticiple: "sworn", translation: "ругаться" },
+    { base: "swear", pastSimple: "swore", pastParticiple: "sworn", translation: "клясться" },
     { base: "swim", pastSimple: "swam", pastParticiple: "swum", translation: "плавать" },
     { base: "swing", pastSimple: "swung", pastParticiple: "swung", translation: "качаться" },
     { base: "tear", pastSimple: "tore", pastParticiple: "torn", translation: "рвать" },
