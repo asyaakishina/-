@@ -53,7 +53,7 @@ const verbs = [
     { base: "understand", pastSimple: "understood", pastParticiple: "understood", translation: "понимать" },
     { base: "write", pastSimple: "wrote", pastParticiple: "written", translation: "писать" },
 
-    // Добавляем ещё глаголов для большего количества вопросов
+    // Дополнительные глаголы (вторая половина)
     { base: "become", pastSimple: "became", pastParticiple: "become", translation: "становиться" },
     { base: "bite", pastSimple: "bit", pastParticiple: "bitten", translation: "кусать" },
     { base: "blow", pastSimple: "blew", pastParticiple: "blown", translation: "дуть" },
@@ -70,13 +70,9 @@ const verbs = [
     { base: "forgive", pastSimple: "forgave", pastParticiple: "forgiven", translation: "прощать" },
     { base: "freeze", pastSimple: "froze", pastParticiple: "frozen", translation: "замерзать" },
     { base: "hang", pastSimple: "hung", pastParticiple: "hung", translation: "вешать" },
-    { base: "have", pastSimple: "had", pastParticiple: "had", translation: "иметь" },
     { base: "hide", pastSimple: "hid", pastParticiple: "hidden", translation: "прятать" },
     { base: "hit", pastSimple: "hit", pastParticiple: "hit", translation: "ударять" },
-    { base: "hold", pastSimple: "held", pastParticiple: "held", translation: "держать" },
     { base: "hurt", pastSimple: "hurt", pastParticiple: "hurt", translation: "вредить" },
-    { base: "keep", pastSimple: "kept", pastParticiple: "kept", translation: "сохранять" },
-    { base: "know", pastSimple: "knew", pastParticiple: "known", translation: "знать" },
     { base: "lay", pastSimple: "laid", pastParticiple: "laid", translation: "класть" },
     { base: "lead", pastSimple: "led", pastParticiple: "led", translation: "вести" },
     { base: "learn", pastSimple: "learnt", pastParticiple: "learnt", translation: "учиться" },
@@ -107,8 +103,7 @@ const verbs = [
     { base: "tear", pastSimple: "tore", pastParticiple: "torn", translation: "рвать" },
     { base: "throw", pastSimple: "threw", pastParticiple: "thrown", translation: "бросать" },
     { base: "wear", pastSimple: "wore", pastParticiple: "worn", translation: "носить (одежду)" },
-    { base: "win", pastSimple: "won", pastParticiple: "won", translation: "побеждать" },
-    { base: "write", pastSimple: "wrote", pastParticiple: "written", translation: "писать" }
+    { base: "win", pastSimple: "won", pastParticiple: "won", translation: "побеждать" }
 ];
 
 let currentIndex = Math.floor(Math.random() * verbs.length);
@@ -159,8 +154,8 @@ function checkAnswer() {
     resultHTML += "</ul>";
     messageBox.innerHTML = resultHTML;
 
-    setTimeout(showNextVerb, 2000);
+    setTimeout(showNextVerb, 7000); // ⏱ Время между вопросами — 7 секунд
 }
 
 // === Запуск игры ===
-showCurrentVerb();
+showNextVerb();
