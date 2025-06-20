@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>🧠 Вставь формы глагола</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 Неправильные глаголы</h1>
+<p id="verb">Глагол: ___</p>
+
+<div class="input-group">
+    <label>Past Simple (2 форма):</label>
+    <input type="text" id="form2" placeholder="Например: ate">
+</div>
+
+<div class="input-group">
+    <label>Past Participle (3 форма):</label>
+    <input type="text" id="form3" placeholder="Например: eaten">
+</div>
+
+<div class="input-group">
+    <label>Перевод:</label>
+    <input type="text" id="translation" placeholder="Например: есть">
+</div>
+
+<button onclick="checkAnswer()">Проверить</button>
+<div id="message"></div>
+
+<script src="game.js"></script>
+</body>
+</html>
