@@ -83,7 +83,7 @@ const verbs = [
     { base: "hide", pastSimple: "hid", pastParticiple: "hidden", translation: "прятать", correctCount: 0 },
     { base: "hit", pastSimple: "hit", pastParticiple: "hit", translation: "ударять", correctCount: 0 },
     { base: "hurt", pastSimple: "hurt", pastParticiple: "hurt", translation: "вредить", correctCount: 0 },
-    { base: "lay", pastSimple: "laid", pastParticiple: "laid", translation: "класть", correctCount: 0 },
+    { base: "lay", pastSimple: "laid", pastParticiple: "laid", translation: "лежать", correctCount: 0 },
     { base: "lead", pastSimple: "led", pastParticiple: "led", translation: "вести", correctCount: 0 },
     { base: "learn", pastSimple: "learnt", pastParticiple: "learnt", translation: "учиться", correctCount: 0 },
     { base: "lend", pastSimple: "lent", pastParticiple: "lent", translation: "одалживать", correctCount: 0 },
